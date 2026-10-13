@@ -1,0 +1,7 @@
+state,district,market,commodity,variety,arrival_date,min_price,max_price,modal_price
+Bihar,Patna,Patna City,Wheat,Other,2026-10-10,2300,2700,2500
+Bihar,Patna,Danapur,Wheat,Other,2026-10-10,2150,2550,2380
+Bihar,Nalanda,Bihar Sharif,Rice,Other,2026-10-10,2800,3200,2950
+Bihar,Gaya,Gaya Market,Maize,Other,2026-10-10,1900,2200,2050
+Bihar,Patna,Patna City,Wheat,Other,2026-10-11,2250,2650,2500
+Bihar,Patna,Test Market,Wheat,Other,2026-10-12,3000,2000,2500
