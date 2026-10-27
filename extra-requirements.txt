@@ -1,0 +1,7 @@
+# by Raunak
+# Backend/requirements.txt me ye 4 packages missing hain (code inko import karta hai).
+# Backend ki file touch nahi ki, isliye alag file me rakha hai.
+PyJWT
+pwdlib[argon2]
+email-validator
+alembic

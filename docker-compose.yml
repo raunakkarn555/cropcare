@@ -1,0 +1,17 @@
+# by Raunak
+# Optional: Docker hai to PostgreSQL ek command me chalu: `docker compose up -d`
+# Settings Backend/.env.example ke DATABASE_URL se match karti hain (port 5433)
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: cropcare_user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: cropcare_database_name
+    ports:
+      - "5433:5432"
+    volumes:
+      - cropcare_pgdata:/var/lib/postgresql/data
+volumes:
+  cropcare_pgdata:

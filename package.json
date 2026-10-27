@@ -1,0 +1,10 @@
+{
+  "name": "cropcare",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "db": "docker compose up -d",
+    "dev": "node dev.mjs"
+  }
+}
